@@ -95,7 +95,7 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 .intro-text-content, .intro-img {
@@ -305,6 +305,8 @@
     .menu-content, .menu-content ul {
         flex-direction: column;
         justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     .menu-content {
