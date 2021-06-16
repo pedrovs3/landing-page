@@ -275,6 +275,10 @@
 }
 
 @media (max-width: 800px) {
+    html {
+        width: 100%;
+    }
+    
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -339,4 +343,11 @@
     .menu-spacing {
         display: none;
     }
+
+    .contact-form {
+        grid-column: auto;
+        display: block;
+    }
+
+    
 }
